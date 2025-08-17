@@ -1,20 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        int rubles =20;
-boolean purchase = true;
+        int amount = 13676;
+        int oneMiles = 20;
 
-int oneMiles;
-if (purchase) {
-    oneMiles=1;
+int miles;
+if (amount >= 20) {
+    miles= 1;
 
 } else {
-    oneMiles=0;
+    miles= 0;
 }
-        int amount = 13676;
 
-int bonus = amount/rubles;
- System.out.println("Накопленные мили =" + bonus);
+int balace = amount/oneMiles;
 
- 
+ System.out.println("Накопленные мили =" + balace);
+
+
     }
 }
