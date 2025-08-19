@@ -3,17 +3,17 @@ public class Main {
         int amount = 13676;
         int oneMiles = 20;
 
-int miles;
-if (amount >= 20) {
-    miles= 1;
+        int miles;
+        if (amount >= 20) {
+            miles = 1;
 
-} else {
-    miles= 0;
-}
+        } else {
+            miles = 0;
+        }
 
-int balace = amount/oneMiles;
+        int balace = amount / oneMiles;
 
- System.out.println("Накопленные мили =" + balace);
+        System.out.println("Накопленные мили =" + balace);
 
 
     }
